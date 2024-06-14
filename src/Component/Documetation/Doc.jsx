@@ -12,6 +12,7 @@ import img6 from '../../image/Contribution/6.png';
 import img7 from '../../image/Contribution/7.png';
 import img8 from '../../image/Contribution/8.png';
 import Detail from './Detail';
+import video from '../../image/Contribution/CareerZunction_Docs.mp4';
 
 function Doc() {
   return (
@@ -28,6 +29,13 @@ function Doc() {
         </h1>
       </div>
       <div className="TitleDoc">Make Your First Contribution !</div>
+      <div className="video_Doc">
+        <h1 style={{ fontWeight: '500',}}>Video Tutorial</h1>
+        <video controls>
+          <source src={video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
       <div className="ContributionImg">
         <div className="bx-1 conImg">
           <p
